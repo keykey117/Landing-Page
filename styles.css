@@ -156,3 +156,11 @@ header {
 .sign-up-info {
   text-align: left;
 }
+.button:hover {
+  cursor: pointer;
+  background-color: #16376b;
+}
+a:hover {
+  cursor: pointer;
+  color: #16376b;
+}
