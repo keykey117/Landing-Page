@@ -14,7 +14,9 @@ footer {
 }
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: auto;
+  width: 70%;
 }
 ul {
   display: flex;
@@ -42,7 +44,9 @@ a,
 }
 .intro {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 70%;
   gap: 64px;
 }
 .intro-info {
@@ -74,8 +78,6 @@ a,
 
 header {
   padding-bottom: 100px;
-  padding-left: 75px;
-  padding-right: 75px;
 }
 .content {
   text-align: center;
@@ -158,6 +160,7 @@ header {
 }
 .button:hover {
   cursor: pointer;
+  color: #e5e7eb;
   background-color: #16376b;
 }
 a:hover {
